@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 
 def work?(day)
   if day == "Friday"

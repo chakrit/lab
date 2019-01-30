@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 
 def work?(day)
   case day

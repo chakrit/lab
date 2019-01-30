@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # Assignments, not equality!
 name = "(enter your name here)"
 #  ^     ^

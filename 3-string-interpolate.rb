@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 
 name = "Chakrit"
 age  = 9000

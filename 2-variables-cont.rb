@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 
 somtom_baguette =  79
 spicy_parfait   = 119

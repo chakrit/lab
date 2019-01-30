@@ -1,5 +1,25 @@
 #!/usr/bin/env ruby
 
+# BONUS Chapter.
+
+
+def find_answer(question)
+  puts question
+  answer = gets.chomp.downcase
+  case answer
+  when "luytale", "maxvalu", "eggnoodles", "zen"
+    "Let's go to #{answer}"
+  else
+    find_answer("I don't know about #{answer}, maybe something else?")
+  end
+end
+
+puts find_answer("What'd you like to have today?")
+
+
+# ---
+
+
 # ALERT! Math!
 #
 #   factorial(1) = 1
@@ -26,7 +46,9 @@ puts "fact(5) = #{fact(5)}"
 #           = 120
 #
 
-# ----------------------------------------
+
+# ---
+
 
 # ALERT! Math!
 #

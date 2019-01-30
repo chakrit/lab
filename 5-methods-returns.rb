@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+# Methods also return values as part of an expression
 def double_of(n)
   n * 2   # <- last value in a method gets RETURNED
 end

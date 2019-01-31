@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# TODO: Make it shorter
 
 # these are numbers
 somtom_baguette =  79

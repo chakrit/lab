@@ -22,7 +22,7 @@
 
 # 👇 now let's call the method and see what happens
 greet("Harry",    1980)
-greet("Tom",      1926)
+greet("Ron",      1926)
 greet("Hermione", 1979)
 
 #

@@ -11,3 +11,10 @@ end
 
 puts(double_of(3))
 puts(quadruple_of(4))
+
+x = double_of(7)
+puts x
+x = double_of(x)
+puts x
+x = quadruple_of(x)
+puts x

@@ -1,18 +1,18 @@
 #!/usr/bin/env ruby
 
-oishi = false
+oishi = true
 
 if oishi
   puts "A-roi!"
 else
-  puts "Mai-a-roi!"
+  puts "Mai a-roi!"
 end
 
 
 # ---
 
 
-place = "Luy Tale"
+place = "Egg Noodles"
 
 if place == "Luy Tale"
   puts "Seafood let's go"

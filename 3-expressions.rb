@@ -11,9 +11,9 @@ john = somtom_baguette + 2*bottle_of_coke
 jack = spicy_parfait + durian_wine
 total = john + jack
 
-puts "Total is " + total
-puts "John owes " + john + " baht"
-puts "Jack owes " + jack + " baht"
+# puts "Total is " + total
+# puts "John owes " + john + " baht"
+# puts "Jack owes " + jack + " baht"
 
 #
 # Did you get an ERROR!?!

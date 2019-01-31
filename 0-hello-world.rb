@@ -9,3 +9,5 @@
 #   |      ─ data for command
 #   
 #    ─ command
+#
+# A piece of data is not a command and vice versa.

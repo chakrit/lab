@@ -6,6 +6,7 @@
 def find_answer(question)
   puts question
   answer = gets.chomp.downcase
+
   case answer
   when "luytale", "maxvalu", "eggnoodles", "zen"
     "Let's go to #{answer}"

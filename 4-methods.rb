@@ -24,3 +24,9 @@
 greet("Harry",    1980)
 greet("Tom",      1926)
 greet("Hermione", 1979)
+
+#
+#  When to make am ethod? The GOLDEN RULE:
+#
+#      Don't Repeat Yourself !
+#

@@ -40,3 +40,16 @@ else
   puts "It is #{today.to_s.capitalize} today, let's chillout!"
 end
 
+
+# ---
+
+
+food_prefs = {
+  "Luy Tale" => "Seafood",
+  "Egg Noodles" => "Salty",
+  "Masaru" => "Salary?",
+}
+
+def like_food?(food)
+  food_prefs[food]
+end

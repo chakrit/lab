@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-oishi = true
+oishi = false
 
 if oishi
   puts "A-roi!"

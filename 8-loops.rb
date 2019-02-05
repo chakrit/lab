@@ -1,22 +1,44 @@
 #!/usr/bin/env ruby
 
-5.times do |i|
-  line = "*"
-  i.times do
-    line = line + "*"
+numbers = []
+
+loop do
+
+  puts "Enter the numbers, enter `stop` to stop:"
+  input = gets.chomp
+  if input == "stop"
+    break
+  else
+    numbers << input.to_i
   end
 
-  puts line
 end
 
-5.times do |i|
-  line = " "
+puts " --- "
+puts "    Total: #{numbers.count} numbers"
+puts "  Average: #{numbers.sum / numbers.count}"
+puts "      Min: #{numbers.min}"
+puts "      Max: #{numbers.max}"
+
+
+# ---
+
+
+n = 5
+n.times do |i|
   i.times do
-    line = line + " "
-  end
-  (5 - i).times do
-    line = line + "*"
+    putc "*"
   end
 
-  puts line
+  putc "\n"
+end
+
+n.times do |i|
+  i.times do
+    putc " "
+  end
+  (n - i).times do
+    putc "*"
+  end
+  putc "\n"
 end

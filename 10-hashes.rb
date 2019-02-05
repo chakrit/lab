@@ -44,12 +44,12 @@ end
 # ---
 
 
-food_prefs = {
+food_comments = {
   "Luy Tale" => "Seafood",
   "Egg Noodles" => "Salty",
   "Masaru" => "Salary?",
 }
 
-def like_food?(food)
-  food_prefs[food]
-end
+input = gets.chomp
+comment = food_comments[input]
+puts "Ohhhh #{comment}"

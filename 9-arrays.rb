@@ -17,3 +17,20 @@ puts("Today is #{workdays[today]}")
 #                    |    ─ a `[` starts indexing into the array
 #                    
 #                     ─ an array variable
+
+
+# ---
+
+
+workdays = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+]
+
+puts "Workdays include:"
+workdays.each do |day|
+  puts day
+end

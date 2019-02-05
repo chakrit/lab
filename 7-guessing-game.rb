@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-answer = (Random.rand * 100).to_i
+answer = (rand * 100).to_i
 
 loop do
   puts "Guess a number:"
-  guess = gets.chomp.to_i
+  guess = gets.to_i
   puts "You guessed: #{guess}"
 
   if guess < answer

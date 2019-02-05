@@ -1,38 +1,12 @@
 #!/usr/bin/env ruby
 
-oishi = false
+oishi = true
 
 if oishi
   puts "A-roi!"
 else
   puts "Mai a-roi!"
 end
-
-
-# ---
-
-
-place = "Egg Noodles"
-
-if place == "Luy Tale"
-  puts "Seafood let's go"
-elsif place == "Egg Noodles"
-  puts "Egg noodles for me today"
-elsif place == "Masaru"
-  puts "Is it the end of the month already?"
-else
-  puts "I have no idea where `#{place}` is"
-end
-
-
-# ---
-
-
-place = "Luy Tale"
-
-puts "Seafood let's go"            if place == "Luy Tale"
-puts "Egg noodles for me today"    if place == "Egg Noodles"
-puts "Is it the end of the month?" if place == "Masaru"
 
 
 # ---
@@ -88,21 +62,4 @@ elsif expired && !edible
 else
   puts "Fresh Cheese!"
 end
-
-
-# ---
-
-
-puts("What'd you like to have today?")
-answer = gets.chomp
-
-puts(if answer == "oishi"
-       "Oishi is OK!"
-     elsif answer == "fuji"
-       "Maybe FUJI!"
-     elsif answer == "zen"
-       "Zen isn't so bad!"
-     else
-       "I don't know where that place is!"
-     end)
 

@@ -1,4 +1,5 @@
-require "bundler/setup"
+#!/usr/bin/env ruby
+
 require "prawn"
 require "squid"
 

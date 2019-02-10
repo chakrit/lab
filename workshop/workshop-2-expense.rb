@@ -1,7 +1,8 @@
 # http://fullscreen.github.io/squid/
 # more settings at: https://www.rubydoc.info/github/Fullscreen/squid/master/Squid
 
-require "bundler/setup"
+#!/usr/bin/env ruby
+
 require "prawn"
 require "squid"
 

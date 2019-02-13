@@ -21,16 +21,26 @@ require_relative './myutil.rb'
 # ---
 
 
+# $LOAD_PATH.unshift(File.dirname(__FILE__))
+# puts $LOAD_PATH.join("\n")
+
+# require 'myutil'
+# thank_you_next
+
+
+# ---
+
+
 # require 'excon'
 # require 'json'
 
 # KEY = 'skey_test_5aar7k1qnae7utb7qtw'
 
 # response = Excon.get('https://api.omise.co/account', { user: KEY }) 
-# # puts response.body
+# puts response.body
 
 # response_json = JSON.parse(response.body)
-# # puts response_json.inspect
+# puts response_json.inspect
 
 # msg = "My email is #{response_json["email"]} and "
 # msg += "I accept #{response_json["supported_currencies"].join(", ")}"

@@ -88,3 +88,7 @@ categories = {
 Prawn::Document.generate("expense_category.pdf") do
   chart categories, categories_settings
 end
+
+system("open expense_monthly.pdf")
+system("open expense_yearly.pdf")
+system("open expense_category.pdf")
